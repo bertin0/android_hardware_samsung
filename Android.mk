@@ -36,7 +36,10 @@ include $(SAM_ROOT)/wifiloader/Android.mk
 endif
 
 ifeq ($(BOARD_VENDOR),samsung)
+<<<<<<< HEAD
 include $(SAM_ROOT)/aidl/Android.mk
+=======
+>>>>>>> 1e6f00f... Remove AdvancedDisplay for AOSP based ROMs
 include $(SAM_ROOT)/audio/Android.mk
 include $(SAM_ROOT)/doze/Android.mk
 include $(SAM_ROOT)/hidl/Android.mk
